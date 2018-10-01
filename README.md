@@ -1,6 +1,11 @@
 # AI_log
 This repo is having python,shell and yaml file to anaylze out.log
 
+covers only below tasks :
+a. histogram error raised
+b. response time > 100ms for 5 secs
+c. number of errors > 5 for 1 minute
+
 
 Brief description :
 > The log_processing.py would load YAML file of rules defined and execute each function with specific
@@ -23,6 +28,7 @@ b. added try catch block with relevant exceptions for each functions ,like
 c. would have implemented polymorphism , especially for historgram_error and check_number_error
 d. written as seperate python modules for each use case
 e. histogram_error function could have improved to show errors within specific time as well
+f. could have completed percentile task
 
 
   
