@@ -1,0 +1,6 @@
+# define rules here
+
+rules:
+  response_time: 100
+  errors: 5
+  
